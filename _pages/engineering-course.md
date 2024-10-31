@@ -2,7 +2,7 @@
 layout: page
 permalink: /engineering-course/
 title: Engineering Course
-description: This section details my progression through my Engineering Master's Degree. It will be regularly updated.
+description: This section details my progress through my Engineering Master's Degree. It will be regularly updated.
 nav: true
 nav_order: 1
 ---
