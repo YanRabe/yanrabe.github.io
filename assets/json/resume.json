@@ -15,7 +15,7 @@
       "region": "Occitanie"
     },
     "profiles": [
-      {
+      { 
         "network": "Twitter",
         "username": "AlbertEinstein",
         "url": "https://twitter.com/AlbertEinstein"
@@ -73,7 +73,7 @@
       "location": "Vandoeuvre-lès-Nancy, France",
       "url": "https://www.la-prepa-des-inp.fr/la-prepa-des-inp/cpp-la-prepa-des-inp-nancy",
       "area": "Engineering with a focus on Computer Science",
-      "studyType": "PhD",
+      "studyType": "Classe Préparatoire",
       "startDate": "2022-09-01",
       "endDate": "2024-06-28",
       "score": "",
@@ -106,13 +106,6 @@
 
   ],
   "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
   ],
   "certificates": [
     {
@@ -120,7 +113,7 @@
       "date": "2012-07-01",
       "issuer": "Lycée Notre-Dame Saint-Sigisbert",
       "url": "https://www.notredamesaintsigisbert.fr/",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-tag"
     },
 
     {
@@ -216,7 +209,8 @@
       "name": "Programming",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Python"
+        "Python",
+        "Web development"
       ]
     },
 
@@ -225,7 +219,7 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Blender",
-        "IceSl",
+        "IceSL",
         "Ultimaker Cura",
         "3D illusration",
         "3D printing"
