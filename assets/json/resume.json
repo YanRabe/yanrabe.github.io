@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yan Rabefaniraka",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "yan.rabefaniraka@etu.inp-n7.fr",
+    "phone": "+33 6 23 42 48 81",
+    "url": "https://github.com/YanRabe",
+    "summary": "Currently studying at ENSEEIHT, I am a student in computer science. I am passionate about new technologies and I am always looking for new challenges.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "2 Rue Charles Camichel",
+      "postalCode": "31000",
+      "city": "Toulouse",
+      "countryCode": "FR",
+      "region": "Occitanie"
     },
     "profiles": [
       {
@@ -24,24 +24,24 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "MFX (Inria Nancy)", 
+      "position": "Research internship",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2024-05-06",
+      "endDate": "2024-06-14",
+      "summary": "6 weeks internship in the MFX team at Inria Nancy. The goal of this internship was to develop a Python tool that could help the team manage their machine profiles for their 3D slicing software.",
+      "highlights": ["Python (Textual library)", "Git", "Technical study of the software and the machines", "Material study", "Assisting the team in their daily tasks and practical experiments"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "organization": "CPPIADes 2024 - CLAC",
+      "location": "Vandoeuvre-lès-Nancy, France",
+      "position": "Catering department manager | Webdev",
+      "url": "https://www.cppiades2024.fr/",
+      "startDate": "2023-09-01",
+      "endDate": "2024-06-28",
+      "summary": "Yearly event organized by the CPPIADes association. The goal of this event is to gather students from all over France to participate in sports competitions. I was in charge of the catering department and I also developed and updated part of the website for the event.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
