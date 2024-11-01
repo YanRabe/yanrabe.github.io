@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Printer-to-lua
+description: 3D printer profile manager/generator
 img: assets/img/12.jpg
-importance: 2
+importance: 1
 category: work
 related_publications: true
 ---

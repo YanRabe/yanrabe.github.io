@@ -18,12 +18,12 @@ children:
     permalink: /publications/
 ---
 
-- For my CVs, you should check [Here](https://yanrabe.github.io/cv/).
+- For my *CVs*, you should check [Here](https://yanrabe.github.io/cv/).
 
 ---
 
 ## ✨ Elevator Pitch ✨
-- Here is a quick elevator-pitch if you want to discover me in less than 3 minutes 😁.
+- Here is a quick *elevator-pitch* if you want to discover me in less than 3 minutes 😁.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
