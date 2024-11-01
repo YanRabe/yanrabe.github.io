@@ -14,12 +14,13 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
+latest_posts: false
 social: true # includes social icons at the bottom of the page
 ---
 
-- Currently studying at _ENSEEIHT_, I am a student in computer science. I am passionate about new technologies and I am always looking for new challenges. 
+- Currently studying at _ENSEEIHT_, I am a student in computer science. I am passionate about 3D modelisation/printing and I am always looking for new challenges. 
 
-- Before that, I was shortly an intern at [MFX](https://mfx.loria.fr/) for 6 weeks, under [Sylvain Lefebvre](https://www.antexel.com/sylefeb-research/)'s supervision. My job there was to develop a small but complete Python app that would help the team generate harmonised 3d-printer profiles for their 3D [_Slicer_](https://icesl.loria.fr/). For that, I taught myself how to use the `Textual` module to create a pretty UI for the app, but I also had to actually understand how the machines work. Don't hesitate to check my internship report in the [publications page](/publications/), as well as the project's repository in the [_projects_](/projects/)and [_repositories_](/repositories/) sections.
+- A few months ago, I was shortly an intern at [MFX](https://mfx.loria.fr/) for 6 weeks, under [Sylvain Lefebvre](https://www.antexel.com/sylefeb-research/)'s supervision. My job there was to develop a small but complete Python app that would help the team generate harmonised 3d-printer profiles for their 3D [_Slicer_](https://icesl.loria.fr/). For that, I taught myself how to use the `Textual` module to create a pretty UI for the app, but I also had to actually understand how the machines work. Don't hesitate to check my internship report in the [publications page](/publications/), as well as the project's repository in the [_projects_](/projects/) and [_repositories_](/repositories/) sections.
 
 - This internship was necessary to validate my 2 years at La Prépa des INP - Nancy, where I studied science courses in order to prepare my entry in an engineering school.
 

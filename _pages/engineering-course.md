@@ -6,7 +6,6 @@ description: This section details my progress through my Engineering Master's De
 nav: true
 nav_order: 1
 
-social: true
 ---
 
 For now, this page is empty as I have not completed any Semester yet.
