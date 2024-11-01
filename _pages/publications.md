@@ -7,16 +7,16 @@ nav: false
 nav_order: 9
 ---
 
-This will stay empty for while... Though, please note that I do plan on pursuing my career in pulic research after finishing my degree, so this might actually come in handy in a few years.
+This is still a work in progress and only contains the template's examples as of now... Though, please note that I do plan on pursuing my career in pulic research after finishing my degree, so this might actually come in handy in a few years.
 
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
-<!-- 
+
 {% include bib_search.liquid %}
 
 <div class="publications">
 
 {% bibliography %}
 
-</div> -->
+</div>

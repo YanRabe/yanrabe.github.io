@@ -36,7 +36,7 @@
   "volunteer": [
     {
       "organization": "CPPiades 2024 - CLAC",
-      "location": "Vandoeuvre-lès-Nancy, France",
+      "location": "Nancy, France",
       "position": "Acommodation department manager | Webdev | Photographer",
       "url": "https://www.cppiades2024.fr/",
       "startDate": "2023-09-01",
@@ -70,7 +70,7 @@
 
     {
       "institution": "Classe Préparatoire aux Grandes Ecoles - Prépa des INP",
-      "location": "Vandoeuvre-lès-Nancy, France",
+      "location": "Nancy, France",
       "url": "https://www.la-prepa-des-inp.fr/la-prepa-des-inp/cpp-la-prepa-des-inp-nancy",
       "area": "Engineering with a focus on Computer Science",
       "studyType": "Classe Préparatoire",
@@ -230,7 +230,7 @@
         "name": "Table Tennis",
         "icon": "fa-solid fa-tag",
         "keywords": [
-          "Tennis de Table Neuves-Maisons"
+          "Tennis de Table Neuves-Maisons (TTNM)"
         ]
       },
     {
