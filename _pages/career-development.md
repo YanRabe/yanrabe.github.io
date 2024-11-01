@@ -8,7 +8,7 @@ nav: true
 nav_order: 6
 social: true
 children:
- - title: Career Development
+  - title: Career Development
     permalink: /career-development/
   - title: divider
   - title: Projects
