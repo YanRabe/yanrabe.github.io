@@ -7,6 +7,9 @@ dropdown: true
 nav: true
 nav_order: 2
 children:
+  - title: International Mobility
+    permalink: /international-mobility/
+  - title: divider
   - title: Prof. English
     permalink: /in-development/
   - title: divider
