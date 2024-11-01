@@ -5,7 +5,7 @@ nav: true
 nav_order: 10
 dropdown: true
 children:
-  - title: repsitories
+  - title: Repositories
     permalink: /repositories/
   
 ---
