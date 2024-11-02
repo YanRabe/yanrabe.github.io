@@ -4,7 +4,7 @@ title: E-portfolio using Jekyll, Github Pages and the al-folio template
 description: This is my e-portfolio. It is a static website generated using Jekyll and hosted on GitHub Pages. It is a simple and efficient way to present my resume and my projects.
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Work
 related_publications: true
 ---
 

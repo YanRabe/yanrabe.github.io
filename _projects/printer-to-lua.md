@@ -4,7 +4,7 @@ title: Printer-to-lua
 description: 3D printer profile manager/generator
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Work
 related_publications: true
 ---
 
