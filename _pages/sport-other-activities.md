@@ -25,7 +25,7 @@ As a heritage from my mother's own passion, I love expressing myself by dancing.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mine.ppg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mine.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -34,20 +34,24 @@ This new obession has now stuck with me since the end of high school, and has be
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/revachol.ppg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/revachol.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bus_stop.ppg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bus_stop.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mine_3d.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mine_3d.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ## Music 🎸
 As an avid music fan, I cannot stress how important it is for me to listen to some music before going to school or on the way back home. Furthermore I recently strengthened this passion for music by trying to learn how to play the guitar. I was - I acknowledge - a bit helped by my previous 8 years of piano...
 
-![Me playing the guitar](/assets/img/guitar.jpg/)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/guitar.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Photography 📸
 This is probably my most important hobby. I use photography as an expression of my inner feelings, as a way to capture and celebrate life around me, or just as a silly way of venting and having fun. Although it did not define the course of my education unlike 3D modeling, it plays a major role in defining who I am as an individual. I encourage you to check the [Instagram account](https://instagram.com/Cedrouuu_Yanouuu) I share with a close friend \(my photos are the ones with white borders\).
@@ -60,6 +64,6 @@ This is probably my most important hobby. I use photography as an expression of 
         {% include figure.liquid loading="eager" path="assets/img/plant.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dopplr.ppg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dopplr.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
