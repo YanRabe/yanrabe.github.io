@@ -5,7 +5,7 @@ permalink: /projects/
 description: This page displays my ongoing or future projects.
 nav: false
 nav_order: 8
-display_categories: [work, fun]
+display_categories: [Work, Template please don't mind us]
 horizontal: false
 ---
 
