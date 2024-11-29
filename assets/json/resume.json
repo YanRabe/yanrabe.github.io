@@ -30,7 +30,7 @@
       "url": "https://mfx.loria.fr/",
       "startDate": "2024-05-06",
       "endDate": "2024-06-14",
-      "summary": "6 weeks internship in the MFX team at Inria Nancy. The goal of this internship was to develop a Python tool that could help the team manage their machine profiles for their 3D slicing software.",
+      "summary": "6-week internship in the MFX team at Inria, Nancy. The goal of this internship was to develop a Python tool that could help the team manage their machine profiles for their 3D slicing software.",
       "highlights": ["https://github.com/YanRabe/Printer-to-lua", "Python (Textual library)", "Lua", "Git", "Technical study of the software and the machines", "Material study", "Assisting the team in their daily tasks and practical experiments"]
     }
   ],
