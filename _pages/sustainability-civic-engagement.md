@@ -16,17 +16,21 @@ This was an amazing experience in which I honed many social skills by actively c
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mine.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mine.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/accueil-yan-26.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/accueil-yan-26.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ## Photo7 📸
 
-As of recently, I candidated to the school's photography association. For now, I have only participated in photographing the Halloween party, and cannot pretend to a greater role in the association as I am not an official member _yet_.
+As of April 2025, I am now the vice-president of the school's photography association, and am responsible for the association's event planning: This means I am the one who asks for volunteers at the school's events or at outside gigs we are invited to, and planifies the staff organisation. Of course, as a membre of the bureau, this role implies many other smaller aspects. 
+
+## 7Voix 🎤 
+
+Similarly, I am now the vice-president of our choir-club; Responsibilities are minimal here as I am mainly expected to help run our singing sessions and coordinating the club's overall organisation along with the other members of the bureau.
 
 ## Vegetarianism 🍽️🌱
 
-Due to my personal convictions regarding animal rights along with the known impact of the meat industry on our planet's climate, it has now been 4 years since I went almost fully vegetarian \(except for eggs and cheese\). This is a fundamentally personal journey I imposed solely on myself, with one of my goals being to better my food consumption's quality and lessen my individual impact on the environment.
+Due to my personal convictions regarding animal rights along with the known impact of the meat industry on our planet's climate, it has now been 5 years since I went almost fully vegetarian \(except for eggs and cheese\). This is a fundamentally personal journey I imposed solely on myself, with one of my goals being to better my food consumption's quality and lessen my individual impact on the environment.
