@@ -25,7 +25,7 @@ As a heritage from my mother's own passion, I love expressing myself by dancing.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mine.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mine.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -34,10 +34,10 @@ This new obession has now stuck with me since the end of high school, and has be
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/revachol.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/revachol.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bus_stop.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bus_stop.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mine_3d.JPG" class="img-fluid rounded z-depth-1" %}
@@ -64,6 +64,6 @@ This is probably my most important hobby. I use photography as an expression of 
         {% include figure.liquid loading="eager" path="assets/img/plant.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dopplr.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dopplr.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
