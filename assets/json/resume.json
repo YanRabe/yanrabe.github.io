@@ -24,6 +24,16 @@
   },
   "work": [
     {
+      "name": "ANITI", 
+      "location": "Toulouse, France",
+      "position": "Research internship in GenAI usability in learning computer science.",
+      "url": "https://aniti.univ-toulouse.fr/",
+      "startDate": "2025-06-06",
+      "endDate": "2024-07-31",
+      "summary": "8-week internship along with Meriem Ouederni and David Brunet. The goal of this internship was to evaluate the potency of GenAI regarding the teaching of Computer Science; It implied studying its potential and its limits, as well as its impact on students'learning capacities.",
+      "highlights": ["https://github.com/YanRabe/LLMSForEducation", "Git", "TO DO"]
+    },
+    {
       "name": "MFX (Inria Nancy)", 
       "location": "Nancy, France",
       "position": "Research internship in 3D printing / modeling",
