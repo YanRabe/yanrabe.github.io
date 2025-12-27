@@ -25,11 +25,11 @@ This was an amazing experience in which I honed many social skills by actively c
 
 ## Photo7 📸
 
-As of April 2025, I am now the vice-president of the school's photography association, and am responsible for the association's event planning: This means I am the one who asks for volunteers at the school's events or at outside gigs we are invited to, and planifies the staff organisation. Of course, as a membre of the bureau, this role implies many other smaller aspects. 
+As of April 2025, I am now the vice-president of the school's photography association, and am responsible for the association's event planning: This means I am the one who asks for volunteers at the school's events or at outside gigs we are invited to, and planifies the staff organisation. Of course, as a membre of the bureau, this role implies many other smaller aspects which would be superfluous to mention. 
 
 ## 7Voix 🎤 
 
-Similarly, I am now the vice-president of our choir-club; Responsibilities are minimal here as I am mainly expected to help run our singing sessions and coordinating the club's overall organisation along with the other members of the bureau.
+Similarly, I am now the vice-president of our choir-club; Responsibilities are minimal here as I am mainly expected to help run our singing sessions and coordinate the club's overall organisation along with the other members of the bureau.
 
 ## Vegetarianism 🍽️🌱
 
