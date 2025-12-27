@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /PPP/
+permalink: /career-development/
 title: PPP
 description: This section gives info on my current career projects.
 dropdown: true

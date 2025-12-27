@@ -6,7 +6,7 @@
     "email": "yan.rabefaniraka@etu.inp-n7.fr",
     "phone": "+33 6 23 42 48 81",
     "url": "https://github.com/YanRabe",
-    "summary": "Currently studying at ENSEEIHT, I am a student in computer science, in an 'Imagery and Multimediaś course. I am passionate about gathering new skills and I am always looking for new challenges.",
+    "summary": "Currently studying at ENSEEIHT, I am a student in computer science, in an 'Imagery and Multimedias' course. I am passionate about gathering new skills and I am always looking for new challenges.",
     "location": {
       "address": "2 Rue Charles Camichel",
       "postalCode": "31000",
@@ -72,7 +72,7 @@
       "location": "Toulouse, France",
       "url": "https://www.enseeiht.fr/",
       "area": "Computer Science",
-      "studyType": "5-year Master's degree",
+      "studyType": "Engineering Master's degree",
       "startDate": "2024-09-01",
       "endDate": "2027-09-01",
       "score": "",
@@ -276,7 +276,8 @@
     {
       "name": "Meriem OUEDERNI",
       "icon": "fa-solid fa-laptop",
-      "reference": "Teacher and researcher for ENSEEIHT and IRIT."
+      "reference": "Teacher and researcher for ENSEEIHT and IRIT.",
+      "email": "meriem.ouederni@inp-toulouse.fr"
     }
   ],
 
