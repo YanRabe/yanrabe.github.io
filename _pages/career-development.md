@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /career-development/
-title: Career Development
-description: This section gives info on my current career advancement.
+permalink: /PPP/
+title: PPP
+description: This section gives info on my current career projects.
 dropdown: true
 nav: true
 nav_order: 6

@@ -6,7 +6,7 @@
     "email": "yan.rabefaniraka@etu.inp-n7.fr",
     "phone": "+33 6 23 42 48 81",
     "url": "https://github.com/YanRabe",
-    "summary": "Currently studying at ENSEEIHT, I am a student in computer science. I am passionate about new technologies and I am always looking for new challenges.",
+    "summary": "Currently studying at ENSEEIHT, I am a student in computer science, in an 'Imagery and Multimediaś course. I am passionate about gathering new skills and I am always looking for new challenges.",
     "location": {
       "address": "2 Rue Charles Camichel",
       "postalCode": "31000",
@@ -29,9 +29,9 @@
       "position": "Research internship in GenAI usability in learning computer science.",
       "url": "https://aniti.univ-toulouse.fr/",
       "startDate": "2025-06-06",
-      "endDate": "2024-07-31",
-      "summary": "8-week internship along with Meriem Ouederni and David Brunet. The goal of this internship was to evaluate the potency of GenAI regarding the teaching of Computer Science; It implied studying its potential and its limits, as well as its impact on students'learning capacities.",
-      "highlights": ["https://github.com/YanRabe/LLMSForEducation", "Git", "TO DO"]
+      "endDate": "2025-07-31",
+      "summary": "8-week internship along with Meriem Ouederni and David Brunet. The goal of this internship was to evaluate the potency of GenAI regarding the teaching of Computer Science; It implied studying its potential and its limits, as well as its impact on students'learning capacities. The point was also to better inform students on the ethical implications of GenAIs",
+      "highlights": ["https://github.com/YanRabe/LLMSForEducation", "Git", "Jupyter Notebook", "Python", "LangChain", "Gensim"]
     },
     {
       "name": "MFX (Inria Nancy)", 
@@ -60,10 +60,10 @@
       "location": "Toulouse, France",
       "position": "Apprentice Photographer",
       "url": "https://photo7.inpt.fr/index.php",
-      "startDate": "2024-10-01",
-      "endDate": "No end date",
-      "summary": "I am currently a candidate for my school's photography association. For now, I participated in photographing the school's Halloween party.",
-      "highlights": []
+      "startDate": "2025-04-31",
+      "endDate": "2026-05-01",
+      "summary": "As a member of ENSEEIHT's photography association's bureau, I am in charge of preparing plannings for our volunteering photogaraphs, as well as giving out information regarding the events.",
+      "highlights": ["Organisation and team management", "communicating information to our members", "Photography"]
     }
   ],
   "education": [
@@ -74,7 +74,7 @@
       "area": "Computer Science",
       "studyType": "5-year Master's degree",
       "startDate": "2024-09-01",
-      "endDate": "2027-06-01",
+      "endDate": "2027-09-01",
       "score": "",
       "courses": ["Computer Science", "Mathematics",  "Engineering Sciences", "Humanities"]
     },
@@ -131,7 +131,7 @@
       "name": "Cambridge First Certificate in English",
       "date": "2020-12-01",
       "issuer": "Cambridge University",
-      "url": "TODO",
+      "url": "document scan",
       "icon": "fa-solid fa-tag"
     }
   ],
@@ -159,9 +159,8 @@
       "level": "Efficient",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Office Suite",
-        "Adobe Suite",
-        "Windows",
+        "Office and Adobe Suite",
+        "Windows andLinux",
         "Git / GitHub",
         "VsCode"
       ]
@@ -173,12 +172,14 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Python",
+        "Matlab",
+        "C",
+        "Ocaml",
         "Ada",
         "JSON",
         "Lua",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "HTML/CSS/JavaScript",
+        "Svelte Framerwork (includes Typescript)",
         "SQL",
         "Java",
         "GCODE"
@@ -261,13 +262,21 @@
         "Salsa",
         "Pompom club"
       ]
+    },
+
+    {
+      "name": "Video Games",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Solo games"
+      ]
     }
   ],
   "references": [
     {
-      "name": "Mentor To be Found ",
+      "name": "Meriem OUEDERNI",
       "icon": "fa-solid fa-laptop",
-      "reference": "Currently searching one on MyJobGlasses."
+      "reference": "Teacher and researcher for ENSEEIHT and IRIT."
     }
   ],
 
