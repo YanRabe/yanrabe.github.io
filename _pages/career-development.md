@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /career-development/
-title: PPP
+title: Career Development
 description: This section gives info on my current career projects.
 page_pdf: PPP_Yan_Rabefaniraka.pdf
 dropdown: true
@@ -9,7 +9,7 @@ nav: true
 nav_order: 6
 social: true
 children:
-  - title: Career Development
+  - title: Career Development and PPP slides
     permalink: /career-development/
   - title: divider
   - title: Projects
@@ -20,12 +20,8 @@ children:
 ---
 
 - For my *CVs*, you should check [Here](https://yanrabe.github.io/cv/).
-
+- For the pdf version of the slides I used during my PPP presentation on January 5th, 2025 it is downloadable by clicking the pdf icon on the top right corner of this page.
 ---
-## PPP slides
-
-Here is the pdf version of the slides I used during my PPP presentation on January 5th, 2025:
-
 
 ## Inspiring profile in Computer Science Research
 

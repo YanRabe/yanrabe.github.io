@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This page displays my ongoing or future projects.
+description: This page will display my future projects. What you can see here are placeholders or templates for now.
 nav: false
 nav_order: 8
 display_categories: [Work, Template please don't mind us]
