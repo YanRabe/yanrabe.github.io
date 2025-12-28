@@ -20,7 +20,7 @@ children:
 ---
 
 - For my *CVs*, you should check [Here](https://yanrabe.github.io/cv/).
-- For the pdf version of the slides I used during my PPP presentation on January 5th, 2025, it is downloadable by clicking the pdf icon on the top right corner of this page.
+- For the pdf version of the slides I used during my PPP presentation on January 5th, 2026, it is downloadable by clicking the pdf icon on the top right corner of this page.
 
 ---
 
