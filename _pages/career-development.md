@@ -3,6 +3,7 @@ layout: page
 permalink: /career-development/
 title: PPP
 description: This section gives info on my current career projects.
+page_pdf: PPP_Yan_Rabefaniraka.pdf
 dropdown: true
 nav: true
 nav_order: 6
@@ -25,10 +26,6 @@ children:
 
 Here is the pdf version of the slides I used during my PPP presentation on January 5th, 2025:
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/pdf/PPP_Yan_Rabefaniraka.pdf" class="img-fluid rounded z-depth-1" %}
-    </div>
 
 ## Inspiring profile in Computer Science Research
 
@@ -44,6 +41,3 @@ Seeing his career path and how he makes it interact with his hobbies (developing
         {% include video.liquid path="assets/video/elevator.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-
-
-
