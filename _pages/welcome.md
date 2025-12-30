@@ -6,7 +6,7 @@ subtitle: About me
 
 profile:
   align: right
-  image: Rabe_Yan_Photo.jpg
+  image: Photo_CV.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Currently studying in </p>
