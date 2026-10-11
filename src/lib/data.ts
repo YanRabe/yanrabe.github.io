@@ -246,14 +246,14 @@ export const cvSections: CvSection[] = [
 			},
 			{
 				heading: 'Research internship in GenAI usability in learning computer science.',
-				meta: 'ANITI',
+				meta: 'ANITI / COMUE Toulouse · Jun. 2025 – August. 2025',
 				text: "8-week internship along with Meriem Ouederni and David Brunet. The goal of this internship was to evaluate the potency of GenAI regarding the teaching of Computer Science; It implied studying its potential and its limits, as well as its impact on students'learning capacities. The point was also to better inform students on the ethical implications of GenAIs",
 				tags: ['Git', 'Jupyter Notebook', 'Python', 'LangChain', 'Gensim'],
 				href: 'https://github.com/YanRabe/LLMSForEducation'
 			},
 			{
 				heading: 'Research internship in 3D printing / modeling',
-				meta: 'MFX (Inria Nancy)',
+				meta: 'MFX (Inria) · Villers-lès-Nancy · May 2024 – Jun. 2024',
 				text: '6-week internship in the MFX team at Inria, Nancy. The goal of this internship was to develop a Python/Textual tool that could help the team manage their Lua machine profiles for their 3D slicing software.',
 				tags: ['Python', 'Textual', 'Lua', 'G-code'],
 				href: 'https://github.com/YanRabe/Printer-to-Lua'
@@ -398,7 +398,7 @@ export const cvSections: CvSection[] = [
 				href: 'https://github.com/YanRabe/yanrabe.github.io/'
 			},
 			{
-				heading: '3D printer profile manager - {Printer-to-lua}',
+				heading: '3D printer profile manager - Printer-to-lua',
 				meta: '2024.05 - 2024.06',
 				text: 'This is a Python tool that I developed during my internship at Inria Nancy. It is a simple and efficient way to manage the machine profiles for the 3D slicing software used by the MFX team.',
 				tags: [
