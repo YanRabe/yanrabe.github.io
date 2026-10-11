@@ -74,17 +74,17 @@ export const homepageHighlights = [
 	{
 		number: '02',
 		title: 'Summer 2024 Internship',
-		text: "In 2024, I was shortly an intern at MFX for 6 weeks, under Sylvain Lefebvre's supervision. My job there was to develop a small but complete Python App that would help the team generate harmonised 3d-printer profiles for their 3D Slicer. For that, I taught myself how to use the Textual module to create a pretty UI for the app, but I also had to actually understand how the machines work. Do not hesitate to check my internship report in the publications page, as well as the project's repository in the projects and repositories sections. This internship was necessary to validate my 2 years at La Prépa des INP - Nancy, where I studied science courses in order to prepare my entry in an engineering school."
+		text: "In 2024, I was shortly an intern at MFX for 6 weeks, under Sylvain Lefebvre's supervision. My job there was to develop a Python TUI App that would help the team generate harmonised 3d-printer profiles for their 3D Slicer. For that, I taught myself how to use the Textual module to create a pretty UI for the app, but I also had to actually understand how the machines work. Do not hesitate to check my internship report in the publications page, as well as the project's repository in the repositories sections. This internship was necessary to validate my 2 years at La Prépa des INP - Nancy, where I studied science courses in order to prepare my entry in an engineering school."
 	},
 	{
 		number: '03',
 		title: 'Summer 2025 Internship',
-		text: "Summer of 2025, I had a 8 weeks internship at ANITI under Meriem Ouederni's and David Brunet's supervision. We tried to quantify the usefulness of GenAIs academic-wise-- Specifically regarding Computer Science--, by establishing use cases and seeking its potential as well as it limits. Similarly to the previous internship, you can read more about it in the publications page, as well as the project's repository in the projects and repositories sections. This internship validated my 1st year of Engineering School at ENSEEIHT."
+		text: "Summer of 2025, I had a 8 weeks internship at ANITI under Meriem Ouederni's and David Brunet's supervision. We tried to quantify the usefulness of GenAIs academic-wise-- Specifically regarding Computer Science--, by establishing use cases and seeking its potential as well as it limits. Similarly to the previous internship, you can read more about it in the publications page, as well as the project's repository in the repositories sections. This internship validated my 1st year of Engineering School at ENSEEIHT."
 	},
 	{
 		number: '04',
 		title: '2026 Research Internship — AI Agent for Augmented Reality',
-		text: 'At ELIPSE / IRIT in Toulouse, I developed a proof-of-concept Unity application for an XR headset. It interprets natural-language commands for object recognition and segmentation.'
+		text: "At ELIPSE / IRIT in Toulouse under Marcos Serrano's supervision, I developed a proof-of-concept Unity application for an XR headset. It interprets natural-language commands for object recognition and segmentation. To do so, I used Unity and Meta's XR SDK to build a Virtual UI that follows the user and allows them to prompt a VLM; I also benchmarked the use of online, local and on-device inference so that each use case is covered. I also provided the basic server code to host a local VLM model along with a local Whisper model for automated speech-recognition. Unfortunately, the files are confidential as it serves as a basis for a PhD student's thesis, but feel free to ask me for more details."
 	},
 ];
 
