@@ -239,6 +239,12 @@ export const cvSections: CvSection[] = [
 		title: 'Work',
 		entries: [
 			{
+				heading: 'Research Intern — AI Agent for Augmented Reality',
+				meta: 'ELIPSE / IRIT · Toulouse · Jun. 2026 – Jul. 2026',
+				text: '8-week internship where I developed a proof-of-concept Unity application for an XR headset. It interprets natural-language commands to recognize and segment objects. It was a mix of Unity XR, Meta SDK and UI / HCI building.',
+				tags: ['Unity', 'C#', 'XR', 'Object recognition', 'Segmentation', 'HCI', 'UI/UX']
+			},
+			{
 				heading: 'Research internship in GenAI usability in learning computer science.',
 				meta: 'ANITI',
 				text: "8-week internship along with Meriem Ouederni and David Brunet. The goal of this internship was to evaluate the potency of GenAI regarding the teaching of Computer Science; It implied studying its potential and its limits, as well as its impact on students'learning capacities. The point was also to better inform students on the ethical implications of GenAIs",
@@ -248,44 +254,26 @@ export const cvSections: CvSection[] = [
 			{
 				heading: 'Research internship in 3D printing / modeling',
 				meta: 'MFX (Inria Nancy)',
-				text: '6-week internship in the MFX team at Inria, Nancy. The goal of this internship was to develop a Python tool that could help the team manage their machine profiles for their 3D slicing software.',
-				tags: [
-					'Python (Textual library)',
-					'Lua',
-					'Git',
-					'Technical study of the software and the machines',
-					'Material study',
-					'Assisting the team in their daily tasks and practical experiments'
-				],
+				text: '6-week internship in the MFX team at Inria, Nancy. The goal of this internship was to develop a Python/Textual tool that could help the team manage their Lua machine profiles for their 3D slicing software.',
+				tags: ['Python', 'Textual', 'Lua', 'G-code'],
 				href: 'https://github.com/YanRabe/Printer-to-Lua'
 			}
 		]
 	},
 	{
-		title: 'Volunteer',
+		title: 'Volunteering',
 		entries: [
 			{
-				heading: 'Apprentice Photographer',
-				meta: 'Photo7',
-				text: "As a member of ENSEEIHT's photography association's bureau, I am in charge of preparing plannings for our volunteering photogaraphs, as well as giving out information regarding the events.",
-				tags: [
-					'Organisation and team management',
-					'communicating information to our members',
-					'Photography'
-				]
+				heading: 'Vice-President / Event Manager',
+				meta: 'Photo7, ENSEEIHT Photography Club · Apr. 2025 – Apr. 2026',
+				text: 'I coordinated 40+ volunteers on more than 12 outside gigs and school events, and helped manage a €9,000 budget notably around future-proofing our computers.',
+				tags: ['Event planning', 'Budget management', 'Volunteer coordination', 'Photography']
 			},
 			{
-				heading: 'Acommodation department manager | Webdev | Photographer',
-				meta: 'CPPiades 2024 - CLAC',
-				text: "Yearly event organized by the COMITE LIBRE POUR L'ACCOMPLISSEMENT DES CPPIADES association. The goal of this event is to gather students from all over France to participate in sports competitions. I was in charge of the acommodation department and I also developed and updated part of the website for the event.",
-				tags: [
-					'Team management',
-					'No-code web development',
-					'Communication with the participants',
-					'Problem solving',
-					'Event organization',
-					'General staffing (cleaning, welcoming, match management, cloackroom management.)'
-				]
+				heading: 'Web & Logistics Lead',
+				meta: 'Les CPPiades 2024 · Sep. 2023 – Jun. 2024',
+				text: 'I helped build a Webflow registration and payment site and organised accommodation for more than 600 participants.',
+				tags: ['Webflow', 'Event logistics', 'Accommodation', 'Web development']
 			}
 		]
 	},
@@ -293,45 +281,28 @@ export const cvSections: CvSection[] = [
 		title: 'Education',
 		entries: [
 			{
-				heading: "Engineering Master's degree",
-				meta: 'ENSEEIHT - National School of Electrical Engineering, Electronics, Computer Science, Hydraulics and Telecommunications',
-				text: 'Computer Science',
-				tags: ['Computer Science', 'Mathematics', 'Engineering Sciences', 'Humanities']
+				heading: 'M.Eng. in Computer Science — Image & Multimedia',
+				meta: 'ENSEEIHT, Toulouse · Sep. 2024 – Sep. 2027',
+				text: 'I specialise in computer graphics, computer vision, and 3D imaging. My relevant coursework includes real-time rendering, geometry processing, and machine learning for vision.',
+				tags: ['Computer graphics', 'Computer vision', '3D imaging', 'Machine learning']
 			},
 			{
-				heading: 'Classe Préparatoire',
-				meta: 'Classe Préparatoire aux Grandes Ecoles - Prépa des INP',
-				text: 'Engineering with a focus on Computer Science',
-				tags: [
-					'Computer Science',
-					'Mathematics',
-					'Physics and Chemistry',
-					'Engineering Sciences',
-					'Ecology | Biology',
-					'Humanities'
-				]
+				heading: 'Classe Préparatoire aux Grandes Écoles (MPSI/MP)',
+				meta: 'La Prépa des INP, Vandoeuvre · Sep. 2022 – Jun. 2024',
+				text: 'I studied mathematics, physics, engineering sciences, and computer science.',
+				tags: ['Mathematics', 'Physics', 'Engineering sciences', 'Computer science']
 			},
 			{
-				heading: 'High School',
-				meta: 'Lycée Notre-Dame Saint-Sigisbert',
-				text: 'Scientific Baccalaureate | American International Section',
-				tags: [
-					'Mathematics',
-					'Computer Science',
-					'English literature and history/geography',
-					'Humanities'
-				]
+				heading: 'Baccalauréat — American International Section',
+				meta: 'Lycée Notre-Dame Saint-Sigisbert, Nancy · 2018 – 2022',
+				text: 'I studied in English for 11 hours per week. Before 2018, I was educated in Madagascar.',
+				tags: ['English-language instruction']
 			},
 			{
 				heading: 'Middle School',
 				meta: 'Lycée Francais de Tananarive',
 				text: 'Scientific | British International Section',
-				tags: [
-					'Mathematics',
-					'Physics and Chemistry',
-					'English literature and history/geography',
-					'Humanities'
-				]
+				tags: ['Mathematics', 'Physics and Chemistry', 'English literature and history/geography', 'Humanities']
 			}
 		]
 	},
@@ -354,7 +325,6 @@ export const cvSections: CvSection[] = [
 	{
 		title: 'Skills',
 		items: [
-			'Soft Skills',
 			'Teamwork',
 			'Problem solving',
 			'Adaptability',
@@ -362,74 +332,51 @@ export const cvSections: CvSection[] = [
 			'Creativity',
 			'Critical thinking',
 			'Organisation',
-			"Cleaning (believe me I'm good at it)",
-			'IT',
-			'Office and Adobe Suite',
-			'Windows andLinux',
-			'Git / GitHub',
-			'VsCode',
-			'Programming',
-			'Python',
-			'Matlab',
-			'C',
-			'Ocaml',
-			'Ada',
-			'JSON',
-			'Lua',
-			'HTML/CSS/JavaScript',
-			'Svelte Framerwork (includes Typescript)',
-			'SQL',
-			'Java',
-			'GCODE'
+			'IT: Office and Adobe Suite',
+			'Programming: Python, C, C++, C#, Java, OCaml, Lua, Ada',
+			'Python: NumPy, Taichi, PyTorch, TensorFlow/Keras, OpenCV',
+			'Graphics & vision: OpenGL, OpenCV, OpenMP',
+			'Web: JavaScript, TypeScript, Svelte, React, Vite, HTML, CSS',
+			'Other: Spring, JPA, G-code',
+			'Tools: Git, GitHub, GitHub Actions, Linux, Docker, Unity, Jupyter, VS Code, LaTeX'
 		]
 	},
 	{
 		title: 'Languages',
 		items: [
-			'French',
-			'Native speaker',
-			'English',
-			'Fluent (B2 First and C1 Baccaleaureate)',
-			'Malagasy',
-			'Native speaker',
-			'Spanish',
-			'Basic',
-			'Romanian',
-			'Learning the basics'
+			'French -- Native speaker',
+			'English -- Fluent (B2 First and C1 Baccaleaureate)',
+			'Malagasy -- Native speaker',
+			'Spanish -- Basic',
+			'Romanian -- Learning the basics'
 		]
 	},
 	{
 		title: 'Interests',
 		items: [
-			'Programming',
-			'Python',
 			'Web development',
-			'3D modeling',
-			'Blender',
-			'IceSL',
-			'Ultimaker Cura',
-			'3D illusration',
-			'3D printing',
+			'3D modeling & 3D illusration with Blender',
+			'3D printing with IceSL & Ultimaker Cura',
 			'Table Tennis',
-			'Tennis de Table Neuves-Maisons (TTNM)',
 			'Photography',
 			'Experimental pictures',
 			'Landscape photography',
 			'Street photography',
+			'Homelabing',
 			'Dancing',
 			'Salsa',
 			'Pompom club',
 			'Video Games',
-			'Solo games'
 		]
 	},
 	{
 		title: 'References',
 		entries: [
 			{
-				heading: 'Meriem OUEDERNI',
-				meta: 'Teacher and researcher for ENSEEIHT and IRIT.',
-				text: ''
+				heading: 'Meriem Ouederni',
+				meta: 'Associate Professor, ENSEEIHT / IRIT',
+				text: 'Academic reference',
+				href: 'mailto:meriem.ouederni@inp-toulouse.fr'
 			}
 		]
 	},
@@ -437,10 +384,17 @@ export const cvSections: CvSection[] = [
 		title: 'Projects',
 		entries: [
 			{
-				heading: 'E-portfolio using Jekyll, Github Pages and the Al-Folio template',
-				meta: '2024.09 - NO END DATE',
-				text: 'This is my e-portfolio. It is a static website generated using Jekyll and hosted on GitHub Pages. It is a simple and efficient way to present my resume and my projects.',
-				tags: ['Jekyll', 'Github Pages', 'Markdown', 'Self-learning journey'],
+				heading: 'LLMs for Education',
+				meta: '2025 · Research project',
+				text: 'I built an evaluation framework to benchmark large language models as computer-science tutors.',
+				tags: ['Python', 'LangChain', 'Gensim'],
+				href: 'https://github.com/YanRabe/LLMSForEducation'
+			},
+			{
+				heading: 'E-portfolio',
+				meta: 'Ongoing',
+				text: 'I built this portfolio to present my background, projects, and interests.',
+				tags: ['Svelte', 'TypeScript'],
 				href: 'https://github.com/YanRabe/yanrabe.github.io/'
 			},
 			{
