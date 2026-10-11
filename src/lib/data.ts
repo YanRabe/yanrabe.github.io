@@ -9,6 +9,7 @@ export type SitePath =
 	| '/engineering-course'
 	| '/sustainability-civic-engagement'
 	| '/sport-other-activities'
+	| '/repositories'
 	| '/cv';
 
 export type NavItem = Omit<LinkItem, 'href'> & { href: SitePath };
@@ -45,6 +46,7 @@ export const navItems: NavItem[] = [
 	{ label: 'Engineering Course ✏️', href: '/engineering-course' },
 	{ label: 'Sustainaibility & Civic Engagement', href: '/sustainability-civic-engagement' },
 	{ label: 'Sports & Other Activities', href: '/sport-other-activities' },
+	{ label: 'Repositories', href: '/repositories'},
 	{ label: 'Cv', href: '/cv' }
 ];
 
