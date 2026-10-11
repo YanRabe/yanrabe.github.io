@@ -46,7 +46,7 @@ export const navItems: NavItem[] = [
 	{ label: 'Engineering Course ✏️', href: '/engineering-course' },
 	{ label: 'Sustainaibility & Civic Engagement', href: '/sustainability-civic-engagement' },
 	{ label: 'Sports & Other Activities', href: '/sport-other-activities' },
-	{ label: 'Repositories', href: '/repositories'},
+	{ label: 'Repositories', href: '/repositories' },
 	{ label: 'Cv', href: '/cv' }
 ];
 
@@ -59,7 +59,7 @@ export const socialLinks: LinkItem[] = [
 
 export const profile = {
 	name: 'Yan Rabefaniraka',
-	discipline: 'Student at ENSEEIHT french engineering school in Computer Science',
+	discipline: 'M.Eng. candidate in Computer Science (Image & Multimedia) at ENSEEIHT',
 	location: 'Toulouse, France',
 	institution: 'ENSEEIHT',
 	portrait: '/assets/Photo_CV.jpg'
@@ -69,7 +69,7 @@ export const homepageHighlights = [
 	{
 		number: '01',
 		title: 'Academic background',
-		text: 'Currently studying at ENSEEIHT engineering school, I am a student in computer science. I am passionate about 3D modelisation/3Dprinting and I am always looking for new challenges.'
+		text: 'Currently studying at ENSEEIHT engineering school, I am a student in computer science. I am passionate about 3D modelisation/3Dprinting and I am always looking for new challenges in computer graphics, computer vision, and 3D imaging. I expect to graduate in September 2027.'
 	},
 	{
 		number: '02',
@@ -81,11 +81,11 @@ export const homepageHighlights = [
 		title: 'Summer 2025 Internship',
 		text: "Summer of 2025, I had a 8 weeks internship at ANITI under Meriem Ouederni's and David Brunet's supervision. We tried to quantify the usefulness of GenAIs academic-wise-- Specifically regarding Computer Science--, by establishing use cases and seeking its potential as well as it limits. Similarly to the previous internship, you can read more about it in the publications page, as well as the project's repository in the projects and repositories sections. This internship validated my 1st year of Engineering School at ENSEEIHT."
 	},
-    {
+	{
 		number: '04',
-		title: 'Summer 2026 Internship',
-		text: "TODO."
-	}
+		title: '2026 Research Internship — AI Agent for Augmented Reality',
+		text: 'At ELIPSE / IRIT in Toulouse, I developed a proof-of-concept Unity application for an XR headset. It interprets natural-language commands for object recognition and segmentation.'
+	},
 ];
 
 export const engineeringSemesters = [
@@ -140,22 +140,18 @@ export const civicSections: ContentSection[] = [
 	{
 		title: 'CPPiades 2024 🏉',
 		body: [
-			'The CPPiades 2024 is a yearly event in June in which each Prépa des INP site from all over France gathers in one place to compete during 3 days in a dozen sports, along with nightly parties. This year, we did it in Nancy, which means our site had to organise the whole event.',
-			"I was a key member of the organisation team, by managing both the acommodation department and the IT department. I mainly took contact and delt with most hosting sites in the city in order to find a place for each Classe Préparatoire to sleep in. Moreover I made and regularly updated about half of the event's website with the help of another student. My participation also extended to the actual event, as I had to organise a decent amount of matches, help at cleaning, manage the whole acommodation system, manage the cloakroom during the parties, etc. while also taking most of the event's pictures. This was an amazing experience in which I honed many social skills by actively communicating with the participants, but also because having great relationships with external service providers was mandatory to secure the event's well-being. As well, it eventually challenged my problem sovling skills due to the many unforseen accidents and delays we had faced."
+			'I was Web & Logistics Lead for CPPiades 2024, a three-day event bringing together more than 600 participants from Prépa des INP sites across France. I helped maintain a Webflow registration and payment site, and organised participant accommodation.'
 		],
-		links: [{ label: 'Visit CPPiades 2026', href: 'https://www.cppiades2026.fr/', external: true }],
+		links: [{ label: 'Visit CPPiades 2024', href: 'https://www.cppiades2024.fr/', external: true }],
 		images: [
 			{ src: '/assets/mine.png', alt: 'CPPiades event photograph' },
-			{
-				src: '/assets/accueil-yan-26.JPG',
-				alt: 'CPPiades welcome area'
-			}
+			{ src: '/assets/accueil-yan-26.JPG', alt: 'CPPiades welcome area' }
 		]
 	},
 	{
 		title: 'Photo7 📸',
 		body: [
-			"As of April 2025, I am now the vice-president of the school's photography association, and am responsible for the association's event planning: This means I am the one who asks for volunteers at the school's events or at outside gigs we are invited to, and planifies the staff organisation. Of course, as a membre of the bureau, this role implies many other smaller aspects which would be superfluous to mention."
+			"As vice-president and event manager of ENSEEIHT’s photography club from April 2025 to April 202, I was responsible for the association's event planning: I coordinated over 50 volunteers from outside gigs to school events. "
 		]
 	},
 	{
@@ -178,7 +174,7 @@ export const activitySections: ContentSection[] = [
 		body: [
 			"Before getting into Classe Préparatoire, I used to play table tennis for a decent amount of hours each week (between 2 to 4). I played for my local club called TTNM which stands for Tennis de Table Neuves-Maisons. Although my performances in competitive play were honestly rather horrendous, I enjoyed playing casually and the sport's technical aspect still amazes me to this day. That's why, with a friend of mine who also played table tennis we decided to continue playing while in Classe Préparatoire, with a weekly meetup each Saturday at Lorraine-INP 's private residence for an hour long fierce competition, thus begetting a never-ending rivalry between the two of us."
 		],
-        images: [{ src: '/assets/table_tennis.jpg', alt: 'Table Tennis competition' }]
+		images: [{ src: '/assets/table_tennis.jpg', alt: 'Table Tennis competition' }]
 	},
 	{
 		title: 'Dancing 💃',
@@ -227,7 +223,15 @@ export const activitySections: ContentSection[] = [
 			{ src: '/assets/plant.jpg', alt: 'Close-up plant photograph' },
 			{ src: '/assets/dopplr.png', alt: 'Experimental photograph' }
 		]
-	}
+	},
+	{
+	title: 'Video Games 🎮',
+	body: ['I enjoy video games as a hobby. I sometimes partake in small Game development as a learning strategy.']
+},
+{
+	title: 'Homelabing 🖥️',
+	body: ['I enjoy building and experimenting with home lab systems, notably hosting a media server at home.']
+},
 ];
 
 export const cvSections: CvSection[] = [
