@@ -35,7 +35,7 @@
 	</section>
 
 	<section id="about" class="intro-section" aria-labelledby="about-title">
-		<SectionHeading eyebrow="" title="About me" description="Toulouse, France" />
+		<SectionHeading eyebrow="" title="About me" description="3rd Year at ENSEEIHT" />
 
 		<div class="intro-grid">
 			{#each homepageHighlights as highlight (highlight.number)}
@@ -70,7 +70,7 @@
 		grid-template-columns: minmax(0, 1.3fr) minmax(260px, 0.7fr);
 		gap: 80px;
 		align-items: center;
-		min-height: 620px;
+		min-height: 310px;
 		padding: 62px 0 110px;
 	}
 	.eyebrow {
@@ -190,7 +190,7 @@
 	.intro-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 80px;
+		gap: 40px;
 	}
 	.intro-statement p {
 		max-width: 420px;
@@ -201,6 +201,7 @@
 		line-height: 1.02;
 	}
 	.intro-body {
+		border-top: 1px solid var(--line);
 		max-width: 480px;
 		color: var(--muted);
 		line-height: 1.75;

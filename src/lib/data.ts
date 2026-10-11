@@ -84,7 +84,7 @@ export const homepageHighlights = [
 	{
 		number: '04',
 		title: '2026 Research Internship — AI Agent for Augmented Reality',
-		text: "At ELIPSE / IRIT in Toulouse under Marcos Serrano's supervision, I developed a proof-of-concept Unity application for an XR headset. It interprets natural-language commands for object recognition and segmentation. To do so, I used Unity and Meta's XR SDK to build a Virtual UI that follows the user and allows them to prompt a VLM; I also benchmarked the use of online, local and on-device inference so that each use case is covered. I also provided the basic server code to host a local VLM model along with a local Whisper model for automated speech-recognition. Unfortunately, the files are confidential as it serves as a basis for a PhD student's thesis, but feel free to ask me for more details."
+		text: "At ELIPSE / IRIT in Toulouse under Marcos Serrano's supervision, I developed a proof-of-concept Unity application for an XR headset. It interprets natural-language commands for object recognition and segmentation. To do so, I used Unity and Meta's XR SDK to build a Virtual UI that follows the user and allows them to prompt a VLM; I also benchmarked the use of online, local and on-device inference so that each use case is covered. I also provided the basic server code to host a local VLM model along with a local Whisper model for automated speech-recognition."
 	},
 ];
 
