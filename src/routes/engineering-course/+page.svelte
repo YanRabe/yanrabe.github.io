@@ -13,7 +13,7 @@
 <div class="page-wrap content-narrow course-page">
 	<SectionHeading
 		eyebrow=""
-		title="Engineering Course ✏️"
+		title="Engineering Course"
 		description="This section details my progress through my Engineering Master's Degree. It will be regularly updated."
 	/>
 	<div class="course-intro">
