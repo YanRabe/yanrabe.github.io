@@ -43,7 +43,7 @@ export type CvSection = {
 
 export const navItems: NavItem[] = [
 	{ label: 'Welcome', href: '/' },
-	{ label: 'Engineering Course ✏️', href: '/engineering-course' },
+	{ label: 'Engineering Course', href: '/engineering-course' },
 	{ label: 'Sustainaibility & Civic Engagement', href: '/sustainability-civic-engagement' },
 	{ label: 'Sports & Other Activities', href: '/sport-other-activities' },
 	{ label: 'Repositories', href: '/repositories' },
