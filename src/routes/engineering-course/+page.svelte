@@ -107,7 +107,7 @@
 			margin-bottom: 60px;
 		}
 		.big-mark {
-			font-size: 7rem;
+			font-size: 6.25rem;
 		}
 		.semester-grid {
 			grid-template-columns: 1fr;

@@ -1,5 +1,7 @@
 <script lang="ts">
 	import SectionHeading from '#lib/components/SectionHeading.svelte';
+	import { DitherShader } from '#lib/components/magic/dither-shader';
+	import kiteImage from '#lib/assets/Roll_2 _first_batch-6.jpg';
 	import { homepageHighlights, profile, socialLinks } from '#lib/data.js';
 	import { resolve } from '$app/paths';
 </script>
@@ -14,13 +16,28 @@
 
 <div class="page-wrap home">
 	<section class="hero" aria-labelledby="intro-title">
+		<div class="hero-background" aria-hidden="true">
+			<DitherShader
+				src={kiteImage}
+				gridSize={3}
+				ditherMode="bayer"
+				colorMode="original"
+				invert={false}
+				animated={true}
+				animationSpeed={0.02}
+				primaryColor="#000000"
+				secondaryColor="#f5f5f5"
+				threshold={0.2}
+				objectFit="cover"
+				class="h-9/10 w-7/8"
+			/>
+		</div>
 		<div class="hero-copy">
 			<p class="eyebrow">Computer graphics engineering student</p>
 			<h1 id="intro-title">Yan Rabefaniraka</h1>
 			<div class="hero-actions">
 				<a class="button button-primary" href={resolve('/cv')}>Cv <span>↗</span></a><a
-					class="button button-quiet"
-					href="#about">More info <span>↓</span></a
+					class="button button-quiet" href="#about">More info <span>↓</span></a
 				>
 			</div>
 		</div>
@@ -51,7 +68,7 @@
 			<h2 class="eyebrow">Additional Links</h2>
 		</div>
 		<div class="path-links">
-			<a href={resolve('/engineering-course')}><span>01</span> Engineering Course ✏️ <b>↗</b></a><a
+			<a href={resolve('/engineering-course')}><span>01</span> Engineering Course <b>↗</b></a><a
 				href={resolve('/sustainability-civic-engagement')}
 				><span>02</span> Sustainaibility & Civic Engagement <b>↗</b></a
 			><a href={resolve('/sport-other-activities')}
@@ -72,12 +89,23 @@
 		align-items: center;
 		min-height: 310px;
 		padding: 62px 0 110px;
+		position: relative;
+		isolation: isolate;
+	}
+	.hero-background {
+		position: absolute;
+		z-index: -1;
+		inset: 0;
+		overflow: hidden;
+		opacity: 0.6;
 	}
 	.eyebrow {
 		margin: 0;
 		color: var(--coral);
-		font-size: 0.68rem;
-		letter-spacing: 0.1em;
+		font-size: 0.8rem;
+		font-weight: 500;
+		line-height: 0.7;
+		letter-spacing: 0.05em;
 		text-transform: uppercase;
 	}
 	h1,
@@ -93,12 +121,6 @@
 		font-weight: 500;
 		letter-spacing: -0.07em;
 		line-height: 0.83;
-	}
-	.hero-lede {
-		max-width: 570px;
-		color: var(--muted);
-		font-size: 1.12rem;
-		line-height: 1.6;
 	}
 	.hero-actions {
 		display: flex;
@@ -128,6 +150,7 @@
 		background: var(--coral);
 	}
 	.button-quiet {
+		border-right: 1px solid var(--line);
 		border-bottom: 1px solid var(--line);
 		color: var(--ink);
 		padding-right: 0;
@@ -182,7 +205,6 @@
 		background: var(--coral);
 	}
 	.intro-section,
-	.highlight-section,
 	.path-section {
 		padding: 18px 0;
 		border-top: 1px solid var(--line);
@@ -192,28 +214,11 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 40px;
 	}
-	.intro-statement p {
-		max-width: 420px;
-		margin: 0;
-		font-family: var(--font-display);
-		font-size: clamp(1.8rem, 3.4vw, 3.6rem);
-		letter-spacing: -0.04em;
-		line-height: 1.02;
-	}
 	.intro-body {
 		border-top: 1px solid var(--line);
 		max-width: 480px;
 		color: var(--muted);
 		line-height: 1.75;
-	}
-	.intro-body p + p {
-		margin-top: 24px;
-	}
-	.section-bar {
-		display: flex;
-		justify-content: space-between;
-		align-items: start;
-		margin-bottom: 48px;
 	}
 	.path-section h2 {
 		margin: 0;
@@ -223,32 +228,6 @@
 		letter-spacing: -0.06em;
 		line-height: 0.9;
 		text-align: right;
-	}
-	.highlight-list {
-		border-top: 1px solid var(--line);
-	}
-	.highlight {
-		display: grid;
-		grid-template-columns: 100px 1fr 28px;
-		gap: 24px;
-		align-items: start;
-		border-bottom: 1px solid var(--line);
-		padding: 28px 0;
-	}
-	.highlight-number {
-		color: var(--coral);
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-	}
-	.highlight p {
-		max-width: 560px;
-		margin: 0;
-		color: var(--muted);
-		line-height: 1.6;
-	}
-	.arrow {
-		color: var(--coral);
-		font-size: 1.2rem;
 	}
 	.path-section {
 		display: grid;
@@ -288,67 +267,59 @@
 		color: var(--coral);
 		padding-left: 8px;
 	}
-	.contact-strip {
-		display: flex;
-		justify-content: space-between;
-		gap: 30px;
-		border-top: 1px solid var(--line);
-		padding: 30px 0 0;
-	}
-	.contact-links {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: end;
-		gap: 24px;
-	}
-	.contact-links a {
-		color: var(--ink);
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-	.contact-links span {
-		color: var(--coral);
-	}
 	@media (max-width: 760px) {
 		.hero {
 			grid-template-columns: 1fr;
-			gap: 50px;
+			gap: 36px;
 			min-height: auto;
-			padding: 64px 0 90px;
+			padding: 48px 0 64px;
 		}
 		.hero-aside {
+			width: min(100% - 18px, 330px);
 			margin: 0 18px 0 0;
 		}
-		.intro-grid,
-		.path-section {
+		.intro-grid {
+			grid-template-columns: 1fr;
 			gap: 24px;
-			padding: 40px 0;
 		}
-		.section-bar {
-			display: block;
+		.path-section {
+			grid-template-columns: 1fr;
+			gap: 24px;
 		}
 	}
 	@media (max-width: 520px) {
+		.hero-aside {
+			width: 96px;
+			margin: -12px 18px 0 auto;
+		}
+		.portrait-frame {
+			aspect-ratio: 1;
+		}
+		.portrait-frame::before {
+			inset: 8px -8px -8px 8px;
+		}
+		.location-note {
+			gap: 6px;
+			margin-top: 12px;
+			font-size: 0.55rem;
+		}
+		.dot {
+			width: 7px;
+			height: 7px;
+		}
 		h1 {
-			font-size: clamp(3.7rem, 19vw, 5.5rem);
+			font-size: clamp(2.8rem, 13vw, 4.2rem);
+			line-height: 0.92;
+			overflow-wrap: anywhere;
 		}
 		.intro-section,
-		.highlight-section,
 		.path-section {
-			padding: 76px 0;
+			padding: 40px 0;
 		}
-		.highlight {
-			grid-template-columns: 45px 1fr 20px;
-			gap: 10px;
-		}
-		.contact-strip {
-			display: block;
-		}
-		.contact-links {
-			justify-content: start;
-			margin-top: 20px;
+		.path-links a {
+			grid-template-columns: 36px minmax(0, 1fr) 20px;
+			gap: 8px;
+			font-size: 1.05rem;
 		}
 	}
 </style>
