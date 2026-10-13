@@ -2,6 +2,7 @@
 	import { navItems, profile } from '#lib/data.js';
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
+	import { AnimatedThemeToggler } from '#lib/components/magic/animated-theme-toggler';
 
 	let menuOpen = $state(false);
 
@@ -26,16 +27,19 @@
 			<span>{menuOpen ? 'Close' : 'Menu'}</span>
 			<span class="menu-icon" aria-hidden="true">{menuOpen ? '×' : '＋'}</span>
 		</button>
-		<nav id="site-nav" class:open={menuOpen} aria-label="Main navigation">
-			{#each navItems as item (item.href)}
-				<a
-					class:active={isActive(item.href)}
-					href={resolve(item.href)}
-					aria-current={isActive(item.href) ? 'page' : undefined}
-					onclick={() => (menuOpen = false)}>{item.label}</a
-				>
-			{/each}
-		</nav>
+		<div class="header-actions">
+			<nav id="site-nav" class:open={menuOpen} aria-label="Main navigation">
+				{#each navItems as item (item.href)}
+					<a
+						class:active={isActive(item.href)}
+						href={resolve(item.href)}
+						aria-current={isActive(item.href) ? 'page' : undefined}
+						onclick={() => (menuOpen = false)}>{item.label}</a
+					>
+				{/each}
+			</nav>
+			<AnimatedThemeToggler class="theme-toggle" aria-label="Toggle color theme" />
+		</div>
 	</div>
 </header>
 
@@ -47,6 +51,23 @@
 		border-bottom: 1px solid var(--line);
 		background: color-mix(in srgb, var(--paper) 92%, transparent);
 		backdrop-filter: blur(18px);
+	}
+	.header-actions {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+	}
+
+	.theme-toggle {
+		display: grid;
+		width: 40px;
+		height: 40px;
+		place-items: center;
+		border: 1px solid var(--line);
+		border-radius: 50%;
+		background: transparent;
+		color: var(--ink);
+		cursor: pointer;
 	}
 	.header-inner {
 		display: flex;

@@ -116,6 +116,13 @@ a {
 }
 
 .dark {
+	--paper: #10212a;
+	--ink: #f4f0e8;
+	--muted: #aab8b8;
+	--coral: #ff8173;
+	--lime: #c9dd72;
+	--mist: #1b3039;
+	--line: #39505a;
 	--background: oklch(0.145 0 0);
 	--foreground: oklch(0.985 0 0);
 	--card: oklch(0.205 0 0);
@@ -126,7 +133,6 @@ a {
 	--primary-foreground: oklch(0.205 0 0);
 	--secondary: oklch(0.269 0 0);
 	--secondary-foreground: oklch(0.985 0 0);
-	--muted: oklch(0.269 0 0);
 	--muted-foreground: oklch(0.708 0 0);
 	--accent: oklch(0.269 0 0);
 	--accent-foreground: oklch(0.985 0 0);
@@ -201,4 +207,8 @@ a {
 	html {
 		@apply font-mono;
 	}
+}
+	::view-transition-old(root), ::view-transition-new(root) {
+		animation: none;
+		mix-blend-mode: normal;
 }

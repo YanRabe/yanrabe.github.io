@@ -17,7 +17,7 @@
 		description="This section details my progress through my Engineering Master's Degree. It will be regularly updated."
 	/>
 	<div class="course-intro">
-		<span class="big-mark" aria-hidden="true">N7</span>
+		<span class="big-mark" aria-hidden="true">ENSEEIHT N7</span>
 	</div>
 	<div class="semester-grid">
 		{#each engineeringSemesters as semester (semester.title)}

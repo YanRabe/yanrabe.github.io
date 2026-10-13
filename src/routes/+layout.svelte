@@ -2,6 +2,7 @@
 	import './layout.css';
 	import SiteFooter from '#lib/components/SiteFooter.svelte';
 	import SiteHeader from '#lib/components/SiteHeader.svelte';
+	import { AnimatedThemeToggler } from "#lib/components/magic/animated-theme-toggler";
 	import type { LayoutProps } from './$types';
 
 	let { children }: LayoutProps = $props();
