@@ -137,13 +137,13 @@
 	}
 
 	:global(.decoration-revachol) {
-		top: 0;
-		right: -10%;
+		top: 75%;
+		right: -16%;
 		width: clamp(256px, 5vw, 512px);
 	}
 
 	:global(.decoration-bus-stop) {
-		top: 29%;
+		top: 25%;
 		left: -16%;
 		width: clamp(256px, 5vw, 512px);
 	}
