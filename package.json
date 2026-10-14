@@ -64,8 +64,7 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"dependencies": {
-		"date-fns": "^4.4.0",
-		"motion-sv": "^0.2.0"
+		"date-fns": "^4.4.0"
 	},
 	"allowScripts": {
 		"esbuild@0.28.2": true
