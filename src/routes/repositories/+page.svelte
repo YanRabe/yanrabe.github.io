@@ -1,5 +1,6 @@
 <script lang="ts">
 	import SectionHeading from '#lib/components/SectionHeading.svelte';
+	import GitHubContributions from "#lib/components/chan/github-contributions/github-contributions.svelte";
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -24,7 +25,10 @@
 		title="Repositories"
 		description="A selection of my public GitHub projects."
 	/>
-
+	<GitHubContributions
+		username="YanRabe"
+		class="[&_rect[data-level='0']]:fill-[#dfe6e1] dark:[&_rect[data-level='0']]:fill-[#1b3039] [&_rect[data-level='1']]:fill-[#f3c9c3] dark:[&_rect[data-level='1']]:fill-[#4b3639] [&_rect[data-level='2']]:fill-[#f29e94] dark:[&_rect[data-level='2']]:fill-[#774247] [&_rect[data-level='3']]:fill-[#ef786b] dark:[&_rect[data-level='3']]:fill-[#ad575a] [&_rect[data-level='4']]:fill-[#ef5b4d] dark:[&_rect[data-level='4']]:fill-[#ff8173]"
+	/>
 	{#if data.error}
 		<p class="error">{data.error}</p>
 	{:else if data.repositories.length === 0}

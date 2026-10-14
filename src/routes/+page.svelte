@@ -1,8 +1,12 @@
 <script lang="ts">
-	import SectionHeading from '#lib/components/SectionHeading.svelte';
+	import { UnderlineToBackground } from '#lib/components/fancy/underline-to-background';
 	import { DitherShader } from '#lib/components/magic/dither-shader';
+	import { Floating, FloatingElement } from '#lib/components/fancy/parallax-floating';
 	import kiteImage from '#lib/assets/Roll_2 _first_batch-6.jpg';
-	import { homepageHighlights, profile, socialLinks } from '#lib/data.js';
+	import busStop from '#lib/assets/bus stop transparent.png';
+	import revachol from '#lib/assets/revachol transparent.png';
+
+	import { homepageHighlights, profile } from '#lib/data.js';
 	import { resolve } from '$app/paths';
 </script>
 
@@ -23,7 +27,7 @@
 				ditherMode="bayer"
 				colorMode="original"
 				invert={false}
-				animated={true}
+				animated={false}
 				animationSpeed={0.02}
 				primaryColor="#000000"
 				secondaryColor="#f5f5f5"
@@ -34,10 +38,18 @@
 		</div>
 		<div class="hero-copy">
 			<p class="eyebrow">Computer graphics engineering student</p>
-			<h1 id="intro-title">Yan Rabefaniraka</h1>
+			<h1 id="intro-title">Yan <UnderlineToBackground
+					as="span"
+					targetTextColor="var(--coral)"
+					underlineHeightRatio=0.0625
+					underlinePaddingRatio=0.05
+					class="name-highlight"
+				>Rabefaniraka</UnderlineToBackground
+			></h1>
 			<div class="hero-actions">
 				<a class="button button-primary" href={resolve('/cv')}>Cv <span>↗</span></a><a
-					class="button button-quiet" href="#about">More info <span>↓</span></a
+					class="button button-quiet"
+					href="#about">More info <span>↓</span></a
 				>
 			</div>
 		</div>
@@ -52,8 +64,15 @@
 	</section>
 
 	<section id="about" class="intro-section" aria-labelledby="about-title">
-		<SectionHeading eyebrow="" title="About me" description="3rd Year at ENSEEIHT" />
+		<Floating class="hero-decorations" sensitivity={0.6} easingFactor={0.04}>
+			<FloatingElement depth={0.5} class="decoration decoration-revachol">
+				<img src={revachol} alt="" />
+			</FloatingElement>
 
+			<FloatingElement depth={0.5} class="decoration decoration-bus-stop">
+				<img src={busStop} alt="" />
+			</FloatingElement>
+		</Floating>
 		<div class="intro-grid">
 			{#each homepageHighlights as highlight (highlight.number)}
 				<div class="intro-body">
@@ -80,7 +99,7 @@
 
 <style>
 	.home {
-		overflow: hidden;
+		overflow: visible;
 	}
 	.hero {
 		display: grid;
@@ -98,6 +117,51 @@
 		inset: 0;
 		overflow: hidden;
 		opacity: 0.6;
+	}
+	:global(.section-decorations) {
+		position: absolute;
+		inset: 0;
+		overflow: visible;
+		pointer-events: none;
+	}
+
+	:global(.decoration) {
+		position: absolute;
+		opacity: 0.84;
+	}
+
+	:global(.decoration img) {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	:global(.decoration-revachol) {
+		top: 0;
+		right: -10%;
+		width: clamp(256px, 5vw, 512px);
+	}
+
+	:global(.decoration-bus-stop) {
+		top: 29%;
+		left: -16%;
+		width: clamp(256px, 5vw, 512px);
+	}
+
+	@media (max-width: 760px) {
+		:global(.section-decoration) {
+			display: none;
+		}
+	}
+	.intro-section,
+	.path-section {
+		position: relative;
+		isolation: isolate;
+	}
+	.intro-section > :not(.section-decoration),
+	.path-section > :not(.section-decoration) {
+		position: relative;
+		z-index: 1;
 	}
 	.eyebrow {
 		margin: 0;
@@ -121,6 +185,9 @@
 		font-weight: 500;
 		letter-spacing: -0.07em;
 		line-height: 0.83;
+	}
+	:global(.name-highlight) {
+		cursor: pointer;
 	}
 	.hero-actions {
 		display: flex;
