@@ -15,10 +15,10 @@
 <style>
 	.section-heading {
 		display: grid;
-		grid-template-columns: 120px minmax(0, 1fr);
-		column-gap: 24px;
+		grid-template-columns: 40px minmax(0, 1fr);
+		column-gap: 14px;
 		align-items: baseline;
-		margin-bottom: 48px;
+		margin-bottom: 18px;
 	}
 	.eyebrow {
 		margin: 0;
@@ -35,7 +35,7 @@
 		font-size: clamp(2rem, 5vw, 4.6rem);
 		font-weight: 500;
 		letter-spacing: -0.03em;
-		line-height: 0.96;
+		line-height: 0.75;
 	}
 	.description {
 		grid-column: 2;
@@ -43,7 +43,7 @@
 		margin: 18px 0 0;
 		color: var(--muted);
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 0.75;
 	}
 	@media (max-width: 620px) {
 		.section-heading {

@@ -8,6 +8,7 @@
 
 	import { homepageHighlights, profile } from '#lib/data.js';
 	import { resolve } from '$app/paths';
+	import SectionHeading from '#lib/components/SectionHeading.svelte';
 </script>
 
 <svelte:head>
@@ -38,14 +39,15 @@
 		</div>
 		<div class="hero-copy">
 			<p class="eyebrow">Computer graphics engineering student</p>
-			<h1 id="intro-title">Yan <UnderlineToBackground
+			<h1 id="intro-title">
+				Yan <UnderlineToBackground
 					as="span"
 					targetTextColor="var(--coral)"
-					underlineHeightRatio=0.0625
-					underlinePaddingRatio=0.05
-					class="name-highlight"
-				>Rabefaniraka</UnderlineToBackground
-			></h1>
+					underlineHeightRatio="0.0625"
+					underlinePaddingRatio="0.05"
+					class="name-highlight">Rabefaniraka</UnderlineToBackground
+				>
+			</h1>
 			<div class="hero-actions">
 				<a class="button button-primary" href={resolve('/cv')}>Cv <span>↗</span></a><a
 					class="button button-quiet"
@@ -64,6 +66,7 @@
 	</section>
 
 	<section id="about" class="intro-section" aria-labelledby="about-title">
+		<SectionHeading eyebrow="" title="About me" description="3rd Year at ENSEEIHT" />
 		<Floating class="hero-decorations" sensitivity={0.6} easingFactor={0.04}>
 			<FloatingElement depth={0.5} class="decoration decoration-revachol">
 				<img src={revachol} alt="" />
@@ -87,10 +90,11 @@
 			<h2 class="eyebrow">Additional Links</h2>
 		</div>
 		<div class="path-links">
-			<a href={resolve('/engineering-course')}><span>01</span> Engineering Course <b>↗</b></a><a
-				href={resolve('/sustainability-civic-engagement')}
+			<a href={resolve('/engineering-course')}><span>01</span> Engineering Course <b>↗</b></a>
+			<a href={resolve('/sustainability-civic-engagement')}
 				><span>02</span> Sustainaibility & Civic Engagement <b>↗</b></a
-			><a href={resolve('/sport-other-activities')}
+			>
+			<a href={resolve('/sport-other-activities')}
 				><span>03</span> Sports & Other Activities <b>↗</b></a
 			>
 		</div>
@@ -143,7 +147,7 @@
 	}
 
 	:global(.decoration-bus-stop) {
-		top: 25%;
+		top: 39%;
 		left: -16%;
 		width: clamp(256px, 5vw, 512px);
 	}
@@ -305,9 +309,7 @@
 	.path-section h2 {
 		text-align: left;
 	}
-	.path-links {
-		border-top: 1px solid var(--line);
-	}
+
 	.path-links a {
 		display: grid;
 		grid-template-columns: 55px 1fr 25px;
@@ -333,6 +335,9 @@
 	.path-links a:hover {
 		color: var(--coral);
 		padding-left: 8px;
+	}
+	.path-links a:last-child {
+		border-bottom: 0;
 	}
 	@media (max-width: 760px) {
 		.hero {

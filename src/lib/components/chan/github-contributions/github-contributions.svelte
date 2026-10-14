@@ -36,7 +36,7 @@
 	async function getContributions(signal: AbortSignal) {
 		const encodedUsername = encodeURIComponent(username);
 		const response = await fetch(
-			`https://github-contributions-api.jogruber.de/v4/${encodedUsername}?y=last`,
+			`https://github-contributions-api.jogruber.de/v4/${encodedUsername}?y=2024&y=2025&y=2026`,
 			{ signal }
 		);
 

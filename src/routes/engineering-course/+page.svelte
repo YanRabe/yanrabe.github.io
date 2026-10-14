@@ -14,7 +14,7 @@
 	<SectionHeading
 		eyebrow=""
 		title="Engineering Course"
-		description="This section details my progress through my Engineering Master's Degree. It will be regularly updated."
+		description="This section details my progress through my Engineering Master's Degree."
 	/>
 	<div class="course-intro">
 		<span class="big-mark" aria-hidden="true">ENSEEIHT N7</span>

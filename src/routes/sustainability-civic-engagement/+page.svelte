@@ -11,84 +11,115 @@
 	/></svelte:head
 >
 
-<div class="page-wrap content-narrow civic-page">
+<div class="page-wrap activities-page">
 	<SectionHeading
 		eyebrow=""
 		title="Sustainaibility & Civic Engagement"
 		description="This section details my personal engagements for non-profit associations and sustainable behaviour"
 	/>
-	<div class="sections-list">
-		{#each civicSections as section, index (section.title)}<article class="story">
-				<div class="story-index">0{index + 1}</div>
-				<div class="story-content">
-					<p class="story-label">{section.intro}</p>
+
+	<div class="activity-grid">
+		{#each civicSections as section, index (section.title)}
+			<article class="activity-card">
+				<div class="activity-top">
+					<span>0{index + 1}</span>
 					<h2>{section.title}</h2>
-					{#each section.body ?? [] as paragraph (paragraph)}<p class="story-body">
-							{paragraph}
-						</p>{/each}{#if section.links}<div class="story-links">
-							{#each section.links as link (link.href)}<a
-									class="text-link"
-									{...{ href: link.href }}
-									target="_blank"
-									rel="noreferrer">{link.label} ↗</a
-								>{/each}
-						</div>{/if}<MediaGallery images={section.images ?? []} />
 				</div>
-			</article>{/each}
+
+				<p class="activity-intro">{section.intro}</p>
+
+				{#each section.body ?? [] as paragraph (paragraph)}
+					<p>{paragraph}</p>
+				{/each}
+
+				{#if section.links}
+					<div class="activity-links">
+						{#each section.links as link (link.href)}
+							<a class="text-link" href={link.href} target="_blank" rel="noreferrer">
+								{link.label} ↗
+							</a>
+						{/each}
+					</div>
+				{/if}
+
+				<MediaGallery images={section.images ?? []} />
+			</article>
+		{/each}
 	</div>
 </div>
 
 <style>
-	.sections-list {
-		border-top: 1px solid var(--line);
+	.activities-page {
+		max-width: 1240px;
 	}
-	.story {
+
+	.activity-grid {
 		display: grid;
-		grid-template-columns: 120px minmax(0, 1fr);
-		gap: 24px;
+		grid-template-columns: 1fr 1fr;
+		gap: 2px;
+		background: var(--line);
+		border: 1px solid var(--line);
+	}
+
+	.activity-card {
+		background: var(--paper);
+		padding: 32px;
+	}
+	.activity-top {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 20px;
 		border-bottom: 1px solid var(--line);
-		padding: 46px 0 60px;
+		padding-bottom: 20px;
 	}
-	.story-index {
-		color: var(--coral);
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
-	}
-	.story-content {
-		max-width: 700px;
-	}
-	.story-label {
-		margin-bottom: 14px;
+
+	.activity-top span {
 		color: var(--coral);
 		font-family: var(--font-mono);
 		font-size: 0.67rem;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
 	}
-	.story h2 {
-		margin-bottom: 24px;
+
+	.activity-card h2 {
+		margin: 0;
 		font-family: var(--font-display);
-		font-size: clamp(2rem, 4vw, 3.8rem);
+		font-size: clamp(1.8rem, 3.5vw, 3rem);
 		font-weight: 500;
 		letter-spacing: -0.06em;
-		line-height: 0.95;
 	}
-	.story-body {
-		max-width: 640px;
+
+	.activity-card p:not(.activity-intro) {
+		max-width: 520px;
 		color: var(--muted);
-		line-height: 1.75;
+		line-height: 1.7;
 	}
-	.story-links {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 22px;
-		margin-top: 24px;
+
+	.activity-intro {
+		margin: 26px 0 16px;
+		color: var(--ink);
+		font-family: var(--font-display);
+		font-size: 1.2rem;
+		line-height: 1.25;
 	}
-	@media (max-width: 620px) {
-		.story {
-			grid-template-columns: 42px minmax(0, 1fr);
-			gap: 10px;
-			padding: 34px 0 44px;
+
+	.activity-links {
+		margin: 22px 0;
+	}
+
+	@media (max-width: 720px) {
+		.activity-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.activity-card:nth-child(3) {
+			grid-column: auto;
+		}
+		.activity-card:last-child {
+			grid-column: auto;
+		}
+
+		.activity-card {
+			padding: 24px 20px;
 		}
 	}
 </style>
