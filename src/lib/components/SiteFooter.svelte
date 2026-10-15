@@ -23,7 +23,7 @@
 				{/each}
 			</div>
 			<p>
-				© Copyright 2025 {profile.name}. Hosted by GitHub
+				© Copyright 2026 {profile.name}. Hosted by GitHub
 				Pages.
 			</p>
 		</div>
